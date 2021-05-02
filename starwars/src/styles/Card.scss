@@ -1,0 +1,60 @@
+.card {
+    position: relative;
+    height: auto;
+    border: 2px solid #ffe81e;
+    width: 300px;
+
+    @media #{$global-break-md} { 
+        width: 350px;
+    }
+
+    &__title {
+        font-family: 'Press Start 2P', cursive;
+        text-align: center;
+        font-size: 24px;
+        color: #ffe81e;
+        padding: 24px 0;
+        margin: 0;
+        border-bottom: 1px solid;
+    }
+    &__list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    &__features {
+        font-family: 'Press Start 2P', cursive;
+        padding: 20px 20px 40px;
+    }
+    &__type,
+    &__type-features {
+        color: #ffe81e;
+        margin: 0;
+        line-height: 2;
+        font-size: 16px;
+        padding: 8px 0;
+    }
+    &__type-features {
+        display: block;
+        padding-top: 20px;
+        text-align: center;
+
+        &--true {
+            color: #18c93a;
+        }
+
+        &--off {
+            color: #ff0000;
+        }
+    }
+    &__info {
+
+        &--true {
+            color: #18c93a;
+        }
+        
+        &--off {
+            color: #ff0000;
+        }
+    }
+}

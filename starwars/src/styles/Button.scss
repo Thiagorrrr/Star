@@ -1,0 +1,21 @@
+.button {
+    display: block;
+    position: relative;
+    padding: 8px;
+    width: auto;
+    font-family: 'Press Start 2P', cursive;
+    margin: 40px auto;
+    background-color: #ffff00;
+    transform: translate(0px, 0px);
+    cursor: pointer;
+    border: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    box-shadow: -4px 4px #e0b00a;
+
+    &:active {
+        box-shadow: 0 0 #e0b00a;
+        transform: translate(-4px, 4px);
+    }
+}
